@@ -290,10 +290,10 @@ function send_email($to, $subject, $message, $attchment = FALSE, $cc = FALSE, $b
     $config     =   array(
                     'protocol' => 'smtp',
                     'smtp_crypto' => 'tls',
-                    'smtp_host' => 'smtp.sendgrid.net',
-                    'smtp_port' => 2525,
+                    'smtp_host' => 'HOST',
+                    'smtp_port' => PORT,
                     'smtp_user' => 'apikey',
-                    'smtp_pass' => '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',
+                    'smtp_pass' => 'PASSWORD',
                     'mailtype' => 'html',
                     'charset' => 'utf-8',
                     'smtp_timeout' => '4'

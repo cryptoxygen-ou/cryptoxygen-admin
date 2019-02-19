@@ -64,12 +64,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'cryptoxy.ctkhaftdaw4e.us-east-2.rds.amazonaws.com',
-	'username' => 'prod-db01',
-	'password' => 'fhp4Bfrrx922VA7m',
+	'hostname' => 'HOST',
+	'username' => 'NAME',
+	'password' => 'PASSWORD',
 	//'username' => 'root',
 	//'password' => '',
-	'database' => 'prod-db01',
+	'database' => 'DBNAME',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
