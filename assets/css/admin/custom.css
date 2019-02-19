@@ -1,0 +1,254 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Jan, 2017, 10:19:40 AM
+    Author     : user
+*/
+
+body{
+    word-wrap: break-word;
+}
+.login-container .login-box .login-logo{
+    height: 80px;
+}
+.x-navigation > li.xn-logo > a:first-child{
+    background-color: #f1f1f1;
+}
+.x-navigation > li.xn-logo > a:first-child:hover{
+    background-color: #f1f1f1;
+}
+.x-navigation.x-navigation-minimized > li.xn-logo > a:first-child {
+  background-position: center center;
+  background-size: 60% 55%;
+  padding: 0;
+  width: 50px;
+}
+span.disabled{
+    color: #5a2222;
+    font-size: 12px;
+}
+span.enabled{
+    color: #008803;
+    font-size: 12px;
+}
+span.disabledGrey{
+    color: #888;
+    font-size: 12px;
+}
+.centerBox{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10%
+}
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+.noPadding{
+    padding: 0 !important;
+}
+.profile .profile-image img{
+    height: 100px;
+}
+.marginTop10{
+    margin-top: 10px;
+}
+.lightgallery li{
+    list-style-type: none;
+}
+.list_img img{
+    height: 140px;
+    width: auto;
+}
+.marginLeft10{
+    margin-left: 10px;
+}
+.btn.btn-facebook{
+    color: #fff;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc{
+    background-image: none;
+}
+.message-box .mb-container.enquiry{
+    top: 1%;
+}
+.error.red{
+    color: red;
+}
+.message_template_content {
+    color: #000;
+}
+.noBackground{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+.paddingV10{
+    padding: 10px 0;
+}
+.headingColor{
+    color: #006f98;
+}
+.cometchat_tab#cometchat_groupstab{
+    display: none;
+}
+#selectedLocations .borderedDiv {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 5px;
+    background: #eee;
+}
+#selectedLocations .borderedDiv .close{
+    color: #e00000;
+    font-weight: bold;
+}
+.message-box-default{
+    background: #000;
+    opacity: 0.96 !important;
+}
+.message-box-default h4{
+    color: #ccc;
+}
+.etiq-item{
+    height: 195px;
+}
+.post-item.ann-item {
+    height: 230px;
+    overflow: auto;
+}
+.userItem {
+    height: 380px;
+    overflow: auto;
+}
+.userCover{
+    height: 500px;
+    width: 100%;
+    background-position: center top !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+.feature_value, .featurePeriod {
+    margin-left: 24px;
+    margin-top: 5px;
+    width: 200px;
+}
+.form-control[disabled], .form-control[readonly]{
+    color: #999992;
+}
+
+.cityTabs.page-tabs a{
+    min-width: 100px;
+    padding: 0 10px;
+}
+
+.editSliderImage {
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    color: #0077b3;
+/*    background: #fff none repeat scroll 0 0;*/
+}
+
+.deleteSliderImage {
+/*    background: #fff none repeat scroll 0 0;*/
+    color: red;
+    position: absolute;
+    right: 3%;
+    top: 10%;
+}
+.x-chart-widget-informer-item {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  border-right: 1px dotted #AFBCC7;
+}
+.x-chart-widget-informer-item .count {
+  float: left;
+  width: 100%;
+  font-size: 26px;
+  color: #333;
+  line-height: 35px;
+}
+.x-chart-widget-informer-item .title {
+  font-size: 13px;
+  color: #93ABB9;
+}
+.x-chart-widget-informer-item.last {
+  border-right: 0px;
+}
+.x-chart-widget-informer {
+  float: left;
+  width: 100%;
+  background: #FFF;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.nopadding{
+    padding: 0 !important;
+}
+.dash-sec {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    padding: 0 !important;
+}
+.dash-sec > h3 {
+    background: #55919e none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+}
+.dash-sec > ul {
+    list-style: outside none none;
+}
+.dash-sec li {
+    list-style-type: none;
+    padding: 5px;
+}
+.dash-sec > a {
+    background: #888 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    padding: 6px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+.notiimgmain {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px;
+}
+.notiimgmain:nth-child(even) {
+    background: #eeeee1;
+}

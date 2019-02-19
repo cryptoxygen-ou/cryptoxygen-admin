@@ -1,0 +1,36 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+}
+body {
+	background: #ffffff ;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+:focus {
+	outline:none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+  outline: 0px;
+  outline-offset: -2px;
+}
+a{
+	outline: none;
+	border:0px;
+	&:hover, &:active, &:focus {
+		outline: none;
+	}
+}
+ul, li{
+	list-style:none;
+	margin:0px;
+	padding:0px;	
+}
+label{
+	font-weight: 400;
+}

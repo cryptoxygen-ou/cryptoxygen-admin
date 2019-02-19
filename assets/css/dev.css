@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Nov, 2017, 11:39:06 AM
+    Author     : navjeet
+*/
+
+/**
+* Google Login
+**/
+
+.loginRight .faceLinks {
+    position: relative;
+}
+.g-signin2 {
+    position: absolute;
+    left: 115px;
+    opacity: 0;
+}
+.complete_cont_crop{
+    position: relative;
+}
+.complete_cont_crop #maincropdiv .croppie-container .cr-slider-wrap{
+    width:25% !important;
+    position: absolute;
+    bottom: 15px;
+    left:0px;
+    right:0px;
+    z-index: 15;
+}
+.complete_cont_crop #maincropdiv .croppie-container .cr-boundary{
+    background: rgba(240, 240, 240, 0.4) !important;
+}
+#cropcancel{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    z-index: 56;
+}
+.final-preview{padding-top:80px;}
+
+#cropcancel button, #img-preview a{
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 90px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 5px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    background: #66cc00;
+}
+
+.detail_content {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2px;
+    color: #36474d;
+    font-family: 'Open Sans', sans-serif;
+}
+.blur {
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+    -webkit-filter: url(#blur-filter);
+    filter: url(#blur-filter);
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+@media(max-width: 1200px){
+    #cropcancel{
+        right:210px !important;
+    }
+}
+@media(max-width: 1200px){
+    #cropcancel{
+        right:0px !important;
+        left:0px;
+        bottom:-47px;
+    }
+}
+.cookie_container {
+    width: 100% !important;
+    max-width: 600px !important;
+}
+.cookie_container .modal-content {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0 !important;
+ 
+}
+.cookie_container .modal-header {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+    padding-left: 59px;
+    padding-right: 59px;
+    border:0px !important;
+    background: none !important;
+    text-align:center;
+    
+}
+.cookie_container .modal-body {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 7px !important;
+    background: none !important;
+}
+.cookie_container .modal-body {
+  
+    padding-bottom: 41px !important;
+    padding-top: 37px !important;
+    text-align: center !important;
+}
+.cookie_container .modal-body p{
+    color: #fff;
+}
+.cookie_container .modal-body a.btn.btn-exit {
+    color: #f50f0f !important;
+}
+.cookie_container .modal-body a.btn.btn-agree {
+    color: #278b10 !important;
+}
+.cookie_container .modal-body a.btn {
+    background: #fff none repeat scroll 0 0 !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    margin: 0 8px !important;
+    padding: 10px 21px !important;
+    text-transform: uppercase !important;
+    transition: all 0.25s ease 0s !important;
+}
+.header_sec {
+    //z-index: 950 !important;
+}

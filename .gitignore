@@ -1,0 +1,12 @@
+# netbeans files
+nbproject
+
+#Database file (git rm --cached doc/*)
+
+#/application/config/database.php
+
+#Site Config 
+
+#/application/config/config.php
+
+/uploads

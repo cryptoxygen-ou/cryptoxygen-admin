@@ -1,0 +1,430 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+p, ul, li, h1, h2, h3, h4, h5, h6, span
+{
+	margin:0;
+	padding:0;
+}
+a, a:hover, a:focus
+{
+	text-decoration:none;
+	outline:none;
+}
+ul > li
+{
+	display:inline-block;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+.coming
+{
+	font-family: 'Open Sans', sans-serif;
+	background: rgba(0, 0, 0, 0) url("../images/backgound.jpg") repeat scroll 0 0 / 100% auto;	
+}
+body{
+  background: #c3c7c7;
+}
+
+.wrapper
+{
+	position:relative;
+	width:600px;
+	margin:0 auto;
+	height:90vh;
+
+}
+.inner-contnt
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:100%;
+	transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);			
+}
+a.coming_logo {
+  display: block;
+  margin-bottom: 100px;
+}
+.coming_logo img {
+  height: auto;
+  width: 296px;
+}
+
+.common-h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size:49px;
+  margin-bottom:10px;
+  text-align: center;
+}
+.common-p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* 404 error page */
+.top-header {
+  float: left;
+  padding: 20px 0;
+  width: 100%;
+}
+.hdr-logo {
+  display: block;
+}
+.hdr-logo > img {
+  width: 285px;
+}
+.error-code
+{
+	color:#fff;
+	font-size:100px;
+	font-weight:800;
+	margin-bottom:20px;
+  text-align: center;
+}
+.confirm-hding
+{	color:#fff;
+	font-size:75px;
+	font-weight:800;
+	margin-bottom:14px;
+
+}
+.error-sub-hding
+{
+	color:#fff;
+	font-size:27px;
+	text-transform:uppercase;
+	margin-bottom:2px;
+  text-align: center;
+}
+.l-r-padd
+{
+	padding:0px 30px;
+  color: #fff !important;
+}
+.error-txt
+{
+	margin-top:50px;
+}
+
+/* reset password */
+.r-pas-flds {
+  margin: 50px 0 0;
+}
+.input-fld {
+  background: #f6f6f6 none repeat scroll 0 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  color: #333;
+  height: 46px;
+  width: 100%;
+  padding:0px 15px;
+  font-size:17px;
+}
+.input-fld::-webkit-input-placeholder {
+   color: #a9a9a9;
+}
+
+.input-fld:-moz-placeholder { /* Firefox 18- */
+   color: #a9a9a9;  
+}
+
+.input-fld::-moz-placeholder {  /* Firefox 19+ */
+   color: #a9a9a9;  
+}
+
+.input-fld:-ms-input-placeholder {  
+   color: #a9a9a9;  
+}
+
+.r-pas-flds label {
+  float: left;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  width: 100%;
+  margin-bottom:10px;
+}
+.set_pass {
+  background: #004b64 none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  transition: all 250ms ease 0s;
+
+}
+.set_pass:hover, .set_pass:focus, .set_pass:active{
+  background: #ffa600 none repeat scroll 0 0;
+  color: #fff;
+}
+.error-msg {
+  margin-top: 10px;
+  text-align: left;
+}
+.error-msg > p{
+  font-size: 16px;
+}
+.error-msg > p.not-confirm {
+  color:#f20f0f;
+}
+.error-msg > p.confirm {
+  color:#0e9e29;
+}
+.reset-pass-div h1 {
+  font-size: 38px;
+  margin-bottom:10px;
+}
+.error-div > img {
+  width: 164px;
+}
+
+
+/* Coming soon */
+.get-search {
+  border: 4px solid #ebebeb;
+  border-radius: 3px;
+  height: 69px;
+  margin: 50px auto 0;
+  max-width: 635px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.input-fld {
+  border: medium none;
+  border-radius: 0px;
+  color: #999;
+  font-size: 17px;
+  font-weight: 400;
+  height: 100%;
+  padding: 0 148px 0 20px;
+  width: 100%;
+}
+.start-btn {
+  background: #00c6f7;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px 16px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translate(-7px, -50%);
+}
+
+
+/* 500 error page style  */
+.go-back-sec
+{
+	width:100%;
+	text-align:center;
+	float:left;
+	margin:30px 0px;
+}
+.go-back-sec .start-btn {
+  left: 0;
+  position: relative;
+  right: 0;
+}
+
+
+/* responsive start */
+
+@media (max-width:991px)
+{
+.common-h1 {
+  font-size: 38px;
+}
+.common-p {
+  font-size: 16px;
+}
+.error-code {
+  font-size: 125px;
+}
+.inner-contnt > img {
+  margin: 0 auto;
+  width: 27%;
+}
+.error-sub-hding {
+  font-size: 23px;
+}
+}
+
+@media (max-width:736px)
+{
+.wrapper {
+  width: 100%;
+}
+.construction-txt {
+  padding: 0 56px;
+}
+.common-h1 {
+  font-size: 30px;
+}
+.common-p {
+  font-size: 16px;
+}
+.error-code {
+  font-size: 100px;
+}
+.error-sub-hding {
+  font-size: 20px;
+}
+.inner-contnt.error-contnt {
+  left: 0;
+  margin: 50px 0;
+  position: relative;
+  top: 0;
+  transform: none;
+  float: left;
+  width: 100%;
+}
+
+a.hdr-logo img {
+  margin: 0 auto;
+  text-align: center;
+}
+.confirm-hding {
+  font-size: 50px;
+}
+.lst-fld, .fst-fld {
+  padding: 0;
+}
+.fst-fld {
+  margin-bottom:25px;
+}
+.error-msg {
+  text-align: center;
+}
+}
+@media (max-width:558px)
+{
+.construction-txt {
+  padding: 0;
+}
+}
+
+@media (max-width:480px)
+{
+.error-div > img {
+  width: 30%;
+}
+.reset-pass-div h1 {
+  font-size: 35px;
+ }
+ .coming_logo img {
+  width: 60%;
+}
+
+/* coming soon style */
+.get-search {
+  border: medium none;
+  border-radius: 0;
+  height: auto;
+  overflow: visible;
+}
+.input-fld {
+  border: 4px solid #ebebeb;
+  height: 57px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.start-btn {
+  position: inherit;
+}
+}
+
+@media (max-width:414px)
+{
+.common-h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.error-code {
+  font-size: 56px;
+}
+.l-r-padd {
+  padding: 0;
+}
+.error-sub-hding {
+  font-size: 17px;
+}
+.confirm-hding {
+  font-size: 35px;
+  font-weight: 800;
+}
+.reset-pass-div h1 {
+  font-size: 25px;
+}
+a.hdr-logo img {
+  margin:0 auto;
+}
+.hdr-logo {
+  text-align: center;
+}
+}
+@media (max-width:360px)
+{
+a.hdr-logo img {
+  margin:0 auto;
+  width:100%;
+}
+.hdr-logo {
+  text-align: center;
+}
+}
+@media (max-width:320px)
+{
+.confirm-hding {
+  font-size: 33px;
+}
+}
+@media (max-width:300px)
+{
+.confirm-hding {
+  font-size: 20px;
+}
+.error-sub-hding {
+  font-size: 12px;
+}
+.common-h1 {
+  font-size: 20px;
+}
+.common-p {
+  font-size: 14px;
+}
+a.coming_logo {
+  margin-bottom: 40px;
+}
+}
+@media (max-width:220px)
+{
+.common-h1 {
+  font-size: 16px;
+}
+.uner-constrution
+{
+	padding:0;
+}
+}
+@media (max-width:150px)
+{
+.common-h1 {
+  font-size: 14px;
+}
+}

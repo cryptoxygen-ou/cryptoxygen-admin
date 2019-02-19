@@ -1,0 +1,314 @@
+.how_work{
+	padding-top:52px;
+	padding-bottom: 91px;	
+	h2{
+		font-size: 36px;
+		color: $text-color;
+		font-weight: 600;
+		text-align: center;
+	}
+	.work_sec{
+		margin-top: 22px;
+		border: 1px solid #cccccc;
+		border-right: 0;	
+		text-align: center;
+		@include breakpoint(medium){
+			border-right: 1px solid #cccccc;
+			margin: 1%;
+			width: 48%;
+		}
+		@include breakpoint(x-small){
+			margin: 0%;
+			width: 100%;
+		}
+
+		.imgsec{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
+			align-items: flex-end;
+			align-content: stretch;
+			height: 145px;
+			margin-bottom: 27px;
+			}
+		p{
+			font-size: 18px;
+			color: $text-color;
+			text-align: center;
+		}
+		&:last-child{
+			border-right: 1px solid #cccccc;
+		}
+	}
+	@include breakpoint(small){
+		padding-top:15px;
+		padding-bottom: 51px;	
+	}
+}
+.home_full_sec{
+	padding-left: 0;
+	padding-right: 0;
+	background: #edf0f1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items:center;
+	align-content: stretch;
+	@include breakpoint(medium){
+		 	display: block;
+		 }
+	.why_sec{
+		background: #edf0f1;
+		padding: 0;
+		float: right;	
+		width: 100%;
+		max-width: 570px;
+		@include breakpoint(medium){
+		 	float: left;
+		 	max-width: 100%;
+		 	margin:25px 0;
+		 }
+		h2{
+			font-size: 36px;
+			color: $text-color;
+			font-weight: 600;
+			text-align: left;
+			margin-bottom: 25px;
+			@media (max-width: 1350px) {
+				font-size: 33px;
+				margin-bottom: 20px;
+			}
+			@include breakpoint(xlarge){
+				margin-bottom: 15px;
+				font-size: 30px;
+			}
+		}
+		ul{
+			margin: 0 0 0 0px;
+			padding: 0;
+			li{
+				font-size: 18px;
+				color: $text-color;
+				font-weight: 400;
+				list-style-type: none;
+				padding: 0 0 17px 20px;
+				position: relative;
+				@media (max-width: 1350px) {
+					padding-bottom: 12px;
+					font-size: 16px;
+				}
+				@include breakpoint(xlarge){
+					font-size: 14px;
+					padding-bottom: 10px;
+				}
+				&:before{
+					content:"";
+					background:url("../images/blue_libg.png") no-repeat;
+					background-size: 100%;
+					height: 14px;
+					width: 8px;
+					position: absolute;
+					left:0px;
+					top: 8px;
+					@include breakpoint(xlarge){
+						width: 6px;
+						height: 10px;
+						top: 6px;
+					}
+				}
+			}
+		}
+		
+	}
+
+	.img_sec{
+		padding: 0;
+		img{
+			width: 100%;
+
+		}
+	}
+}
+.minding{
+	padding-top: 40px;
+	padding-bottom: 60px;	
+	h2{
+		font-size: 30px;
+		color: $text-color;
+		font-weight: 600;
+		text-align: left;
+		a{
+			font-size: 16px;	
+			border: 1px solid #acacac;
+			padding: 8px 13px;
+			float: right;	
+			color: $text-color;
+			font-weight: 400;
+			text-decoration: none;	
+			&:before{
+			background: #fff !important;
+			}
+			&:focus, &:hover, &.active{
+				background: #3794e3;
+				color: #fff;
+				border: 1px solid #3794e3;
+			}	
+		}
+	}
+	.minding_sec{
+		margin-top: 28px;	
+		.mindingIn{
+			float: left;	
+			padding: 7px;
+			background: #f6f6f6;
+			margin-right: 12px;
+			margin-bottom: 15px;	
+			border: 1px solid #cccccc;
+			width: 382px;
+			&:nth-child(3n){
+				margin-right: 0;
+				float: right;		
+			}
+			@include breakpoint(xlarge){
+				width: 49.2%;
+					&:nth-child(3n){
+						margin-right: 0px;	
+					}
+					&:nth-child(2n){
+					margin-right: 0;	
+					}
+			}
+			@include breakpoint(medium){
+				width: 49%;
+			}
+			@include breakpoint(small){
+				width: 100%;
+			}
+			.mindingInL{
+				width: 142px;
+				float: left;
+				position: relative;
+				.lock{
+					position: absolute;
+					right: 7px;
+					bottom: 7px;
+					height: 25px;
+					width: 25px;
+					background: #939ec8;
+					@include border-radius (20px);
+					&:before{
+						content:"";
+						background:url("../images/lock_icon.png") no-repeat;
+						background-size: 100%;
+						height: 13px;
+						width: 11px;
+						position: absolute;
+						left: 7px;
+						top:5px;					}
+				}	
+				img{
+				border: 1px solid #cccccc;
+				}
+				@include breakpoint(x-small){
+					width: 100%;
+					img{
+						width: 100%;
+					}
+				}
+			}
+			.mindingInR{
+				width:calc(100% - 142px);
+				min-height: 128px;
+				float: left;
+				padding-left: 17px;	
+				padding-top: 5px;	
+				position: relative;
+				@include breakpoint(xlarge){
+					width:calc(100% - 145px);
+				}
+				p{
+					font-size: 18px;	
+					color: $text-color;
+					margin-bottom: 5px;	
+				}
+				span{
+					font-size: 14px;	
+					color: #838787;
+					padding-bottom: 7px;	
+					float: left;	
+					width: 100%;
+				}
+				label{
+					font-size: 16px;
+					margin-top: 10px;		
+					color: #66cc00;
+					font-weight: 600;	
+					padding: 0px 0 2px 21px;
+					line-height: 18px;
+					float: left;	
+					background: url("../images/k_icon.png") no-repeat;
+				}
+				a{
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					font-size: 14px;	
+					color: #838787;
+					text-transform: uppercase;	
+					@include breakpoint(x-small){
+						position: relative;
+						float: left;
+						width: 100%;
+					}
+				}
+				@include breakpoint(x-small){
+					padding-left: 0;	
+					padding-top: 15px;
+					width: 100%;
+				}
+			}
+		}
+	}	
+}
+.network{
+	padding-top: 49px;
+	padding-bottom: 76px;	
+	background:#66cc00;
+	text-align: center;
+	h2{
+		font-size: 28px;
+		color: #fff;
+		font-weight: 600;
+		text-align: center;
+		margin-bottom: 40px;
+		@include breakpoint(small){
+			br{
+				display: none;
+				font-size: 30px;	
+			}	
+		}	
+	}
+	a{
+		color: #688fd0;
+		background: #fff;
+		padding: 14px 30px;
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: 400;
+		text-decoration: none;	
+		&:before{
+			background: #fff !important;
+			}
+		&:focus, &:hover, &.active{
+			background: #3794e3;
+			color: #fff;
+		}
+	}
+	@include breakpoint(small){
+		padding-top: 9px;
+		padding-bottom: 46px;	
+	}
+
+}
